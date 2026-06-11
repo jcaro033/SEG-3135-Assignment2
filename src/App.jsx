@@ -39,7 +39,6 @@ function NavbarMain() {
                 <Link className='nav-link bg-secondary px-1 pb-1 me-2 fs-5 rounded' to='/'>Home</Link>
                 <Link className='nav-link text-black px-1 ' to='/Book'>Book</Link>
                 <Link className='nav-link text-black px-1' to='/Services'>Services</Link>
-                <Link className='nav-link text-black px-1' href="/">Bikes</Link>
                 <Navbar.Brand className='position-absolute start-50 translate-middle-x text-black'>John's Bikes</Navbar.Brand>
                 
                <HashLink className='nav-link text-black  px-5 position-absolute end-0' to='/#Contact'>Contant Us</HashLink> 
@@ -61,7 +60,6 @@ function Home(){
                        <Container className='text-center'>
                             <Button className='mx-2 p-3 bg-secondary'><Link className="nav-link text-black" to="/book">Book</Link></Button>
                             <Button className='mx-2 p-3 bg-secondary'><Link className="nav-link text-black" to="/Services">Services</Link></Button>
-                            <Button className='mx-2 p-3 bg-secondary'><Link className="nav-link text-black" to="/">Bikes</Link></Button>
                         </Container>
                     </Container>
                 </Card.ImgOverlay>  
