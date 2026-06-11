@@ -192,7 +192,7 @@ function Services() {
 
         <Row className='g-5 justify-content-center'>
            {servicesCard("/src/assets/breaks.jpg","Break Cleaning","/BreakCleaning")}
-           {servicesCard("./assets/tire.jpg","Tire Change/Repair")}
+           {servicesCard("/tire.jpg","Tire Change/Repair")}
            {servicesCard("./assets/chain.jpg","Chain Replacement")}
            {servicesCard("./assets/tuneUp.jpg", "Tune up")}
            {servicesCard("./assets/bikeSeat.jpg","Seat Swap")}
