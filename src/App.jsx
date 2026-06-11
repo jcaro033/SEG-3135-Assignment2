@@ -191,12 +191,12 @@ function Services() {
         <h3 className="bg-primary rounded p-3 mx-auto my-4 text-center w-25">Services</h3>
 
         <Row className='g-5 justify-content-center'>
-           {servicesCard("src/assets/breaks.jpg","Break Cleaning","/BreakCleaning")}
-           {servicesCard("src/assets/tire.jpg","Tire Change/Repair")}
-           {servicesCard("src/assets/chain.jpg","Chain Replacement")}
-           {servicesCard("src/assets/tuneUp.jpg", "Tune up")}
-           {servicesCard("src/assets/bikeSeat.jpg","Seat Swap")}
-           {servicesCard("src/assets/bikeSuspention.jpg", "Suspention Servicing")}
+           {servicesCard("./assets/breaks.jpg","Break Cleaning","/BreakCleaning")}
+           {servicesCard("./assets/tire.jpg","Tire Change/Repair")}
+           {servicesCard("./assets/chain.jpg","Chain Replacement")}
+           {servicesCard("./assets/tuneUp.jpg", "Tune up")}
+           {servicesCard("./assets/bikeSeat.jpg","Seat Swap")}
+           {servicesCard("./assets/bikeSuspention.jpg", "Suspention Servicing")}
         </Row>
 
     </Container>
