@@ -53,7 +53,7 @@ function Home(){
     return (
         <Container>
             <Card className='bg-seconday text-white'>
-                <Card.Img src="src\assets\arantxa-aguirrebengoa-HNvf5kFDKOk-unsplash.jpg" className='img-thumbnail ' />
+                <Card.Img src="/arantxa-aguirrebengoa-HNvf5kFDKOk-unsplash.jpg" className='img-thumbnail ' />
                 <Card.ImgOverlay className='d-flex align-items-center justify-content-center'>
                     <Container>
                        <Card.Title className='bg-secondary-subtle mx-5 my-5 text-black p-3'>Serving the community for over 20+ years we are a family owned bike shop dedicated on providing excellent service to you.</Card.Title>
@@ -75,9 +75,9 @@ function Home(){
                     <h6>(613) 555-4322</h6>
                     <h6><Link href="mailto:bikes@johnsbikes.ca">bikes@johnsbikes.ca</Link></h6>
                     <Container className=''>
-                        <a className='text-decoration-none' href="https://facebook.com"><img src="src\assets\facebook.svg" class="img-fluid" className='p-3' style={{height: "60px"}} /> </a>
-                        <a className='text-decoration-none' href="https://instagram.com"> <img src="src\assets\instagram.svg" class="img-fluid" className='p-3' style={{height: "60px"}} /> </a>
-                        <a className='text-decoration-none' href="https://x.com"><img src="src\assets\twitter-x.svg" class="img-fluid" className='p-3' style={{height: "60px"}} /> </a>
+                        <a className='text-decoration-none' href="https://facebook.com"><img src="/facebook.svg" class="img-fluid" className='p-3' style={{height: "60px"}} /> </a>
+                        <a className='text-decoration-none' href="https://instagram.com"> <img src="/instagram.svg" class="img-fluid" className='p-3' style={{height: "60px"}} /> </a>
+                        <a className='text-decoration-none' href="https://x.com"><img src="/twitter-x.svg" class="img-fluid" className='p-3' style={{height: "60px"}} /> </a>
                     </Container>
                     <h5>Designed By: Joshua Caron</h5>
                     <Link href="mailto:jcaro033@uottawa.ca">jcaro033@uottawa.ca</Link>
@@ -191,12 +191,12 @@ function Services() {
         <h3 className="bg-primary rounded p-3 mx-auto my-4 text-center w-25">Services</h3>
 
         <Row className='g-5 justify-content-center'>
-           {servicesCard("/src/assets/breaks.jpg","Break Cleaning","/BreakCleaning")}
+           {servicesCard("/breaks.jpg","Break Cleaning","/BreakCleaning")}
            {servicesCard("/tire.jpg","Tire Change/Repair")}
-           {servicesCard("./assets/chain.jpg","Chain Replacement")}
-           {servicesCard("./assets/tuneUp.jpg", "Tune up")}
-           {servicesCard("./assets/bikeSeat.jpg","Seat Swap")}
-           {servicesCard("./assets/bikeSuspention.jpg", "Suspention Servicing")}
+           {servicesCard("/chain.jpg","Chain Replacement")}
+           {servicesCard("/tuneUp.jpg", "Tune up")}
+           {servicesCard("/bikeSeat.jpg","Seat Swap")}
+           {servicesCard("/bikeSuspention.jpg", "Suspention Servicing")}
         </Row>
 
     </Container>
@@ -212,7 +212,7 @@ function BreakCleaning() {
         <h3 className="my-2 mb-4 text-center">Breaks Cleaning</h3>
           <Card.Img 
              variant="top"
-             src="src/assets/tuneUp.jpg"
+             src="/tuneUp.jpg"
              className='rounded'
              style={{
                  objectFit: "cover",
