@@ -212,7 +212,7 @@ function BreakCleaning() {
         <h3 className="my-2 mb-4 text-center">Breaks Cleaning</h3>
           <Card.Img 
              variant="top"
-             src="/tuneUp.jpg"
+             src="/breaks.jpg"
              className='rounded'
              style={{
                  objectFit: "cover",
